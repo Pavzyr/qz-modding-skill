@@ -1,0 +1,8 @@
+{"mod": "NoIntroExample", "ops": [
+ {"op": "create_mod", "description": "Chicago campaign without the helicopter intro.", "author": "YourName"},
+ {"op": "duplicate", "src": "/Game/Data/Companies/Chicago/Days/DAY_Chicago01", "dst": "/NoIntroExample/Data/DAY_NIE_Chicago01"},
+ {"op": "duplicate", "src": "/Game/Data/Companies/Chicago/DA_CompanyChicago", "dst": "/NoIntroExample/Data/DA_Company_NIE_Chicago"},
+ {"op": "py", "file": "nointro_build.py"},
+ {"op": "set", "path": "/NoIntroExample/UUGC_Metadata", "props": {"io_store_enabled": true}},
+ {"op": "save"}
+]}

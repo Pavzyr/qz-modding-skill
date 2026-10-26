@@ -1,0 +1,11 @@
+{
+ "ref_fbx": "<ART>/D2_Zheka.FBX",
+ "model": "<ART>/<vN>/<model>.glb",
+ "out_dir": "<ART>/<vN>/auto",
+ "out_fbx": "<ART>/<vN>/auto/SK_MyChar_<vN>.fbx",
+ "mesh_name": "SK_MyChar",
+ "stage": "fit",
+ "material_name": "<material slot name of the mesh already in UE, or omit on first import>",
+ "textures_dir": "<ART>/<vN>/textures",
+ "texture_prefix": "T_MyChar"
+}

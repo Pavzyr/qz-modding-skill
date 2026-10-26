@@ -1,0 +1,12 @@
+{
+ "mod": "NoJacketsAuto",
+ "stop_on_error": true,
+ "ops": [
+  {"op": "create_mod", "friendly_name": "No Jackets (always)", "version_name": "1.0",
+   "description": "Checkpoint visitors wear no jackets, vests or blazers when a shirt/T-shirt is underneath. Always on. / Посетители КПП без курток, жилетов и пиджаков, если под ними есть футболка или рубашка. Работает всегда.",
+   "author": ""},
+  {"op": "py", "file": "nja_build.py"},
+  {"op": "save"},
+  {"op": "inspect", "paths": ["/NoJacketsAuto/Carrier/DA_NJA_DocSkin", "/NoJacketsAuto/Carrier/SK_NJA_Doc", "/NoJacketsAuto/BP_NJA_Manager"]}
+ ]
+}

@@ -1,0 +1,7 @@
+*.report.json
+__pycache__/
+*.pyc
+Saved/
+# generated locally by qz_deep_dump.py + build_schema_refs.py
+skills/qz-modding/references/schema/samples.md
+skills/qz-modding/references/schema/content-index.md

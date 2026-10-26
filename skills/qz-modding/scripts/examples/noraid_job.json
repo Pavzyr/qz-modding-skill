@@ -1,0 +1,66 @@
+{
+ "mod": "NoRaid",
+ "ops": [
+  {
+   "op": "create_mod",
+   "description": "NoRaid - Chicago campaign where drone raids end in victory as soon as they start.",
+   "author": "YourName",
+   "friendly_name": "NoRaid",
+   "version_name": "1.0"
+  },
+  {
+   "op": "duplicate",
+   "src": "/Game/Blueprints/DefenseV2/Data/DA_WaveConfig_01",
+   "dst": "/NoRaid/Data/DA_NoRaid_EmptyWavesA"
+  },
+  {
+   "op": "duplicate",
+   "src": "/Game/Blueprints/DefenseV2/Data/DA_WaveConfig_01",
+   "dst": "/NoRaid/Data/DA_NoRaid_EmptyWavesB"
+  },
+  {
+   "op": "duplicate",
+   "src": "/Game/Data/Companies/Chicago/DA_CompanyChicago",
+   "dst": "/NoRaid/Data/DA_Company_NoRaid_Chicago"
+  },
+  {
+   "op": "duplicate",
+   "src": "/Game/Data/Companies/Chicago/Days/DAY_Chicago02",
+   "dst": "/NoRaid/Data/DAY_NoRaid_Chicago02"
+  },
+  {
+   "op": "duplicate",
+   "src": "/Game/Data/Companies/Chicago/Days/DAY_Chicago07",
+   "dst": "/NoRaid/Data/DAY_NoRaid_Chicago07"
+  },
+  {
+   "op": "duplicate",
+   "src": "/Game/Data/Companies/Chicago/Days/DAY_Chicago11",
+   "dst": "/NoRaid/Data/DAY_NoRaid_Chicago11"
+  },
+  {
+   "op": "duplicate",
+   "src": "/Game/Data/Companies/Chicago/Days/DAY_Chicago16",
+   "dst": "/NoRaid/Data/DAY_NoRaid_Chicago16"
+  },
+  {
+   "op": "duplicate",
+   "src": "/Game/Data/Companies/Chicago/Days/DAY_Chicago19",
+   "dst": "/NoRaid/Data/DAY_NoRaid_Chicago19"
+  },
+  {
+   "op": "py",
+   "file": "noraid_build.py"
+  },
+  {
+   "op": "set",
+   "path": "/NoRaid/UUGC_Metadata",
+   "props": {
+    "io_store_enabled": true
+   }
+  },
+  {
+   "op": "save"
+  }
+ ]
+}

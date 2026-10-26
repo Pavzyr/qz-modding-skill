@@ -1,0 +1,11 @@
+{"mod": "<MOD>", "ops": [
+ {"op": "py", "file": "<KIT>/.claude/skills/qz-modding/scripts/examples/reimport_keep_settings.py",
+  "args": {"mesh": "/<MOD>/SK_MyChar", "fbx": "<ART>/<vN>/auto/SK_MyChar_<vN>.fbx",
+           "textures": {"/<MOD>/T_MyChar_BaseColor": "<ART>/<vN>/textures/T_MyChar_BaseColor.jpg",
+                        "/<MOD>/T_MyChar_Normal": "<ART>/<vN>/textures/T_MyChar_Normal.jpg",
+                        "/<MOD>/T_MyChar_RoughMetal": "<ART>/<vN>/textures/T_MyChar_RoughMetal.jpg"}}},
+ {"op": "set", "path": "/<MOD>/M_MyChar", "props": {"two_sided": true}},
+ {"op": "set", "path": "/<MOD>/UUGC_Metadata", "props": {"io_store_enabled": true}},
+ {"op": "inspect", "paths": ["/<MOD>/M_MyChar", "/<MOD>/DA_<PFX>_DocSkin"]},
+ {"op": "save"}
+]}
